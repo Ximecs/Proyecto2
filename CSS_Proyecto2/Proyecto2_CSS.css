@@ -1,0 +1,21 @@
+ol{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+.col-7{
+    align-items: center;
+}
+.icon{
+    color: #e963cc;
+    font-size: 25px;
+}
+.icon :hover {
+    color: #8b147d;
+    border-radius: 2px solid #8b147d;
+}
