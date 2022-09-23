@@ -19,3 +19,13 @@ h2{
     color: #8b147d;
     border-radius: 2px solid #8b147d;
 }
+.Friends{
+    display: inline;
+}
+.perfil{
+    width: 4em;
+
+    border-radius: 100%;
+    border: 0.25em solid #fd1d1d;
+   
+}
