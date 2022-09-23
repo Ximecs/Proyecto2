@@ -1,56 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS_Proyecto2/Proyecto2_CSS.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="CSS_Proyecto2/Proyecto2_CSS.css" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
 </head>
-<body class="bg-danger">
-    <div class="container-lg vh-100">
-        <div class="row p-4 shadow justify-content-center align-items-center">
-            
-            <div class="col-7 ">
-                <img src="https://cdn-icons-png.flaticon.com/128/1807/1807382.png" alt="" style="width: 15%;">
-                    <button type="button" class="btn btn-light shadow-sm ms-5">Home</button>
-                    <button type="button" class="btn btn-light shadow-sm ms-5">People</button>
 
-            </div>
-            <div class="col-3 align-items-center">
-                <a class="icon" href="#"><i class="fa-solid fa-house me-3"></i></a>
-                <a class="icon" href="#"><i class="fa-solid fa-user me-3"></i></a>
-                <a class="icon" href="#" ><i class="fa-solid fa-circle-user me-3"></i></a>
-            
-            </div>
-        </div>
-        <div class="row mt-4 p-2 justify-content-center">
-            <div class="col-4 shadow-lg p-5 me-5">
-                <table class="table_1">
-                    <ol>Details</ol>
-                    <ol>University</ol>
-                    <ol>Location</ol>
-                </table>
-            </div>
-            <div class="col-7 shadow-lg p-2"></div>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid p-4 shadow justify-content-center align-items-center col-11">
+      <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        </div>
+      <a class="navbar-brand ms-5" href="#"><img src="https://cdn-icons-png.flaticon.com/128/1807/1807382.png" alt=""
+          style="width: 80%" /></a>
+
+      <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContentUser" aria-controls="navbarSupportedContentUser" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-circle-user me-3 icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">People</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContentUser">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="icon" href="#"><i class="fa-solid fa-house me-3"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="icon" href="#"><i class="fa-solid fa-user me-3"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="icon" href="#"><i class="fa-solid fa-circle-user me-3"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
+  <div class="container-fluid mt-3 col-11">
+    <div class="row p-2">
+      <div class="col-lg-4">
+        <div class="shadow mt-5 p-4">
+          <h1>Details</h1>
+          <table class="table_1">
+            <ol>
+              Details
+            </ol>
+            <ol>
+              University
+            </ol>
+            <ol>
+              Location
+            </ol>
+          </table>
+        </div>
+        <div class="shadow lg mt-5 p-4">
+          <h1>Friends</h1>
+          <div class="Friends">
+            <img class="rounded-3 m-3" src="https://lh3.googleusercontent.com/CaKyruY-bCXcTJh5JPtqj-aodhLnZZ0m6qtGWO-w7m2okval7VBIGfq7concF0efdpUMUBy_uSFkC3lQogtN8UzpZ4RDkXjxzfohKrhgwoXWxQm3sOiyYkeVOKLtOTGrTyTKczpAfpQI_6_JE0CNXU6CjRJYepnE0Cw3JcmsTdy-HdC-6y_uWoVTaziceGmJ5MS9kc3hfIaOxDIdErlzYBkoyLIprWMp_VVjJ3wA1a0LET3FQK5Ou_fAXimaPYg9td0BH2uWkoRGqpGpejtRe-VcFhnhNlXtta993l3TEDiT37huzMKzSKOW1LZQucWKJQ2FesScdpMtKIJlKipM7XyArdPW4scYIoNOFeFA-SKSG5sTZlbr71CyT39vK7BDk5HQIkLPtGSwmrqpEaP13i0vNqzKgFZrws5-Ylas2YINB01Tch1H5_nQ2UC6gyhiic1dhVtZQ892b9ww-BBnf7IFTRmeqqJMAfhwAl1H5V0ZN5SS-u6GfEQvJkeZjZsKaG5kf8YRFE-INnLdFF8AtQ47j_aLOuYc83gwlKFcaFu52CJ6SuPC-KAj-TSm_tfhtfeUV2hzAI2tfQfN85-0kZnuLp3_uthNmaY2pF1D-cDtOEQ62DLBE1lM65LTbK0lvrpzXXlxVXmAGNDb2SOTM6Ue9IzRMTq0KfWCC0eyfKTDGFeQNNlTqQw-A2lSqRnfbOC521FdDNJ7Q5N5UzkTpOXTt9IHqVRknlRVAEB8yqFD8bClIBaT9zkt38nrWkLcWqszN6vlmD-FryDpFkui242Zko6yCaT2CNLwzT-t8Pj3_DDtlNA72ylkc_E_MNpt0t1FDA=w704-h938-no?authuser=1" alt=""  width="40%">
+            <img class="rounded-3 m-3" src="https://lh3.googleusercontent.com/QDkDTB0QK0-eSj9f7CZR3cnrfCk1udW6LpiS6n4-agmNyk8GNYDaAy84LE8V3_YIRwfROuXrgVUqe6aiNCuwvFZZGlBmN-5b-tMwAa2UMgZOJaemDf4nvBN8tMJhV6ArTT8YIZHDZRofIG-Tl4qHNvf9-W_PSqUb0XD2hMeDdo4NgUwYfwQHRCkplTVl0xKRdCwVwJQGVP5nP46p13yiohYQf1N71Aj2V7EvvfMeQ8r340EQvwrJXyhoV7g1fqo9O-bD7feBQeiRDOTM_imXydYOT-b_0DrvJDGmpB0737bTcfLzcbS18uxlxn2_4qcGVbQ5WfZCprBo1OvAKz9p8n4yrocIK7a20mhBmIHxC-VfyP6Hg932_fYZpMOiAou2CLso3Sw-Jpfp4eZ5QGOdP2HkFj8zOxXGW6rh7hUzj5D1Jx2GloniUVtcLAACQO90ipHpbAQuYofqT-YcF_zfC-TV455Ggqxz4wZ9k9wdvU0_S0g6G25b4HeLACr3lTvLxz24nMKIKpqD0_1YUKNwgxdn4sHPrSmC4fEQQF3D47xNO4FGuKEuaxHtgEtiEM-N-6Z9ZpFNC6Ocp-qQ9cxtMhE0dso3JK65er-X8DCgBZMWcVOGxA3HDetuaasqup0ctRii_q3ctsaERkPus29xUORSVr3JQ3chG8dVcAHV_OfRfflRK0Ocni81zEvmDvWMlj2rfkz9PhFPEMEkE-R3rnbYX7ynrxdQh2hAgK73jdswGVvTFNkSAHE18z2ip_hV0IUbwI9iRc2sOpd4spbaZS5bEuH-Upwl-ilBiHjKhE3lQCa9nrzTExqb2WQ89k5xRIjcmA=w697-h938-no?authuser=1" alt="" width="40%">
+          </div>
+          <div>
+            <img class="rounded-3 m-3" src="https://lh3.googleusercontent.com/5PNOfqj53fUIWq1gPQQ4-eT4g_XFXRushwwBvaOjOyUkdofO_9YqR2FPlo6Kih0u3UgahkSRv2CVuY8a4b9jMW7FEX01gKSfMOlOT_1WE1aG6eXvzQS1E8cQMSDwLniH8WnzuTkOwcWcwPQWe5vqdLFjUtRWfU6wX3dmk0YS58vzrZ18z3AfiW1SamjtEzkOHRE_7lh0oMpIlFb9OPPLidXzrsIoIGbHwa2ORAPMnZ6ZRe8eaegO2eeuEF9CgXNwYefJLIdTSHUbWJROhWyABpXS-0t9jCeIm2kx3cxsbtT88fmZLeDBetjzA6gcLx3vFW3JO4Y4fixuMv0_tdLK9HuqFtUb4A2p-1bGaHgomSrV6XYVsAODPIiFXZdTE04-7Dexe5RlreWtuMOJGHMO7lRO9y_10rHx3vewgG8Wjilzl0ViwRCV7crsb7HHHfKzfMO6wZa3Ft2LVFCL5ccoXRldNOXf2ik5eENMuXlRAsj2QuC5TFIelbReqd08XJUiNqqnrMuo0D0-iWN5U7OtqUp89X14cCY62muZVlBqVj1Dbf5eXfmaCLrfcgleaH6TFCI7D6w951dPqom1hRdnBRf9gFaGCrEq3hRej_7xcHnHz3QPI6N8WMIi4HiuiBEaf8EWHao-aLxZERRajkXhn_ybxBcmt7MJ1vuRGxzNqTsO6hZz3CXiV5LxOJEhEd8ajKZALmP7F7KKgSKe4ziygLwuppiUzTtbnB-MfLzeuiSdoRz4rV3f_lsELW8TbFZYEFwoV55af8a2XMxKanbXpy2RJJNG9WndJ8AkKX5CrYj75EBwVwzNIkXgOq_YS3e1lsp_rL8VDdI9UblOWU_X8YpsEMT_ucqQYu4I0cTPjyvpmfy6rtUAk968LleyNZD3XmDm71Shs6XSeW9Yo84AOKxIUDh32icFu23zfI7dpSU9ycexG16o1xydkRN6t3gqUBZ-CO4r6PnvxgadV9BxKAlGEc65dP6zXCpPOb2B4uhs9Sd8=w705-h938-no?authuser=1" alt="" width="40%">
+            <img class="rounded-3 m-3" src="https://lh3.googleusercontent.com/qw_-OQa6Kzg4PATSABTHKNVrFQoxx2_tD1BzTz7SavdZqmr22zjksay58iIB-ErBaPz0ExuXrYyzNnU3wS-bpgUuhyXs16vzJJYw-DgItjFbORVTRm2h9pya5nIe_MpKNCEtHq_I3nm4r2_0fc7gyQ2wDV7eWgqa8BS0HlY6-CxoXhfih1-mjFp_w3Ioq3bo7JRE2gcMLlnLPL7XTdmbseSumMFaSnIvu1P8w3SO30t0ALLSrFVJ9wXVLQXFhZR4JxNs3AQzlFtSnFr3l5IbukfSQ4-RQsW87XPEos7claRFHPnIyTFGl9O4XRiskk1dhAvbfH7E3JGeie3RDp38kIHMwwNUcv2NIRcAuAXxoF4MgFNYkiYqnPBrPX4NjX8Eqw6m93CpEe160RWdc-b_cI-vyYbfWlULGLfGr0_jCG6nyKWZ0ylzRnkXxNN0phrltVA8N_1AfmuHLEIi45vJclvqqqbDms0d_-ExC9YSDmDkv1-Xxg6VnR3npvn5RtvMGcBIF_SiVP2bXsUtb6FRj5DW7jRJnuVpDbGIumeB6_K4WP_ZNixpKill08hLAXIbt3dFCmkwUJ902l91EgG5gHhxSZvnVunOzK70q3TMJe0cOd3n0_JZSF5sCfm9cchNTffFpqSxj_7ZE_E2WVSuQci_lAREeu-9akl1om9tS6D9Fis3e9PrpU5w3V4j-Cfn3loxufTcYs5mS6JIb8gquXE-uPn43Ycnafdxtxojsv_68zdnpnywCWnBafnu2frIAh8y-aZiB7EIBl6Y5S3k9KFWpxW4qEEz3PAhE41nAYw-kWkkPhnG0n8qM8QQGSrjk8O_OA=w697-h938-no?authuser=1" alt="" width="40%">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-8 justify-content-center" >
+        <div class="">
+        <div class="shadow lg mt-5 5PNOfqj53fUIWq1gPQQ4-eT4g_XFXRushwwBvaOjOyUkdofO_9YqR2FPlo6Kih0u3UgahkSRv2CVuY8a4b9jMW7FEX01gKSfMOlOT_1WE1aG6eXvzQS1E8cQMSDwLniH8WnzuTkOwcWcwPQWe5vqdLFjUtRWfU6wX3dmk0YS58vzrZ18z3AfiW1SamjtEzkOHRE_7lh0oMpIlFb9OPPLidXzrsIoIGbHwa2ORAPMnZ6ZRe8eaegO2eeuEF9CgXNwYefJLIdTSHUbWJROhWyABpXS-0t9jCeIm2kx3cxsbtT88fmZLeDBetjzA6gcLx3vFW3JO4Y4fixuMv0_tdLK9HuqFtUb4A2p-1bGaHgomSrV6XYVsAODPIiFXZdTE04-7Dexe5RlreWtuMOJGHMO7lRO9y_10rHx3vewgG8Wjilzl0ViwRCV7crsb7HHHfKzfMO6wZa3Ft2LVFCL5ccoXRldNOXf2ik5eENMuXlRAsj2QuC5TFIelbReqd08XJUiNqqnrMuo0D0-iWN5U7OtqUp89X14cCY62muZVlBqVj1Dbf5eXfmaCLrfcgleaH6TFCI7D6w951dPqom1hRdnBRf9gFaGCrEq3hRej_7xcHnHz3QPI6N8WMIi4HiuiBEaf8EWHao-aLxZERRajkXhn_ybxBcmt7MJ1vuRGxzNqTsO6hZz3CXiV5LxOJEhEd8ajKZALmP7F7KKgSKe4ziygLwuppiUzTtbnB-MfLzeuiSdoRz4rV3f_lsELW8TbFZYEFwoV55af8a2XMxKanbXpy2RJJNG9WndJ8AkKX5CrYj75EBwVwzNIkXgOq_YS3e1lsp_rL8VDdI9UblOWU_X8YpsEMT_ucqQYu4I0cTPjyvpmfy6rtUAk968LleyNZD3XmDm71Shs6XSeW9Yo84AOKxIUDh32icFu23zfI7dpSU9ycexG16o1xydkRN6t3gqUBZ-CO4r6PnvxgadV9BxKAlGEc65dP6zXCpPOb2B4uhs9Sd8">
+          <div class="row">
+            <div class="col-3">
+              <img class = "perfil"src="https://lh3.googleusercontent.com/uIHq54Uu7PvX_k-h1J8DI147N3hzAp8x1KZhiQeMCddSoTzMJqvNgx_skoix89CQEtd7FiwzLaiK0aHE-kFPD4S3Lh_y2ISWfOQ66giB-E7-pNCqR5cOn5ZR7AMSOnjYKc3qghFIYIJoBRKuezciqJW1yneg_WAQ3UNq41jJem8_MNpNTxWo-805Rkqzbw_OwZv2OhgmptNtJN2EfDhxcwQERRhKM3P8-KZ_FDdlg6W-j33OGRs7FUIolZlQGPSjo6IH_CcgOe5JFE9bChb4LzZkcwO57nJT-zY5W3wZkUtRP7EgVk1YCebYOMcyv-o1LKekZ2SeJd4RXxyrzXXIymvLHOD32f3ChobF-2D_3HcES3KXhYsVk11ZokWeqZOno530Ru3H6W7q1N4O3NMe3XI3xY1ALE1rfT_UgJveDHMW-1JHUnb5XLlfqIr3j0S73df5OFD8pkjZFW-FH4nC6tCRxU0gdbpgAUKW0mmoXMcIgC93qYpAfE1uNAKcqjuedz8CaINBvL7Op45NSfO8DtLrG1k3DIXy-rGOpCLuJXCWmWQiRM9Be5Tus2Lv6y_QunuSW8B-U7_yU30QelNH87dTv7T22u1RINmShXqwDfU-aPPZbx6cqahbMcC1e6AdjXIpZRzOC9HU-cHzUjka7neqVe5zRWQXIs6zMORymVKdqa8ExvwzQ2UoLgPSRKpAyjj9oYOfiqJw55rZCSu8hH8T-Bmh6cLGDF5YUGEs4CLNy-LzWHr8snonY97yG-yfPkj5HCOA4-fkGfQDV5cLvqzR2jLVtT7UXpW6-6PsP6qXosUGwZIkylbbt_bQY0yAXHm2CQ=s938-no?authuser=1" alt="">
+            </div>
+            <div class="col-5">
+              <h4>@xime.combariza</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col " >
+            <img class="shadow lg p-3 justify-content-center" style="width: 300px;"src="https://lh3.googleusercontent.com/4QuXcwfYuyRwy9xvNhN3Is55YIt5sV_OrHqvzCbdnjheyu3vrGhS2HSVr14HFVIjOhexDbsfhl2yy-xN4hAGoxTs0CtCWSRWG7prra9HbDdhMeR_j34wnSOwlL95oNGl6wmBXowqoVSkmIjDV2S34UhyEVaKjdUx3uuhk2PUe5EcKTItgmU6d_S_HJM4_KoDL-kfsac6JKm2Eohq1oKRMtF-Eg1SEnoOzXIY5N_PLIXn_7yK518mDD8y_-Tkc97dKU4SnrzK_p_fUe8jwCG8ztsm_cyNL9H2uU4Z7I6UURIUTIdVI_PRMH-6Fp0ezpp6lmfHzmfzr1CFJWvrVseTMxSd51zwfJorfxT38NTPFA7_lv1YP4X3TjJHQ6jMd5eBee8Uu6i_Qrn0dA5M-tfAtdjsA4scRDzfled1_riXAHILI4fhPt8DJuaT115oQUQakByIPkVwN9X3xlWHJFc3l8GWSFgPzc-hr7bFCtDrd7fqon6cJ-FqQvgjwGNE6K4pgdpYhYCKve-PoY3kM6Eo9nlMA-j85RTJEIrzwskkcoBQt5QDXiSI3B8jOP7agv_FRPUVFX_fz6jBCdlLtyJe65tBbWYnC79dqlfngEfudugsUo564vXIX1PXQrEaKIFgS4n1slKEeP7j9soygL_sXsGjr2Iptu-Mq1VZjYs4XG9pSm1HV2_eRTYUQXA619w6VYdp5N_BpAv1LyfGvTLABqBr0vQscoVbptVMO0dpPJoSnzoXP1ivhW6VTsJmBC6CRubQ1StGOruNHCPORz-ADyAtPFs-bxOyw9dvquiI3Ugb0O1HKO06x_lOCqcf42wvDPXnOrfG8s1FGg0ApfN2c6I9XSPEUupTNT8HcPt5GAC2MfMiSmwaSFjRfhpuKtjedx15aWRzS40H0f_NY6CXtUtyKwqh04YzKlBGnY55HYsP7iEp3asD5_MB6gMr5O0Eg7cKRNySm0wbiRWtnqDnxtYSuGeu7i26ck9_YiJ6pKTRV-Ui=s938-no?authuser=1" alt=""></div>
+          </div>
+          <div class=" row me-2">
+            <div class="col justify-content-center" style="display: inline; ">
+            <i id="Iconos2" class="fa-solid fa-thumbs-up" ></i>
+            <i id="Iconos2" class="fa-solid fa-comment"></i>
+            <i id="Iconos2" class="fa-solid fa-share"></i>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
-
-
-
-
-
-    <script src="https://kit.fontawesome.com/88f2cf59e0.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/88f2cf59e0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
